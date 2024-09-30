@@ -3,35 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Agencia de Viajes - Santo Grial</title>
-        <link rel="stylesheet" href="css/style.css">
-        
+        <title>Agencia de Viajes - Destinos</title>
+        <link rel="stylesheet" href="css/stylegenerico.css">
     </head>
     <body>
-        <!--Se utilizan los elementos semanticos-->
-        <header>
+        <!-- Header -->
+        <div id="header">
             <h1>Agencia de Viajes - Explora el Mundo</h1>
-        </header>
+        </div>
 
-        <aside class="aside-left">
+        <!-- Sidebar Izquierdo -->
+        <div id="aside-left">
             <nav>
                 <h2>Menú</h2>
                 <ul>
-                    <li><a href="index.html" target="_self" style="color: white;">Inicio</a></li>
-                    <li><a href="destinos.html"target="_blank"style="color: white;">Destinos</a></li>
-                    <li><a href="ofertas.html" target="_blank" style="color: white;">Ofertas</a></li>
-                    <li><a href="contacto.html" target="_blank" style="color: white;">Contacto</a></li>
+                    <li><a href="index.html" target="_blank" style="color: white;"> Inicio</a></li>
+                    <li><a href="destinos.html" target="_self" style="color: white;"> Destinos</a></li>
+                    <li><a href="ofertas.html" target="_blank" style="color: white;"> Ofertas</a></li>
+                    <li><a href="contacto.html" target="_blank" style="color: white;"> Contacto</a></li>
                 </ul>
             </nav>
-        </aside>
+        </div>
 
-            <!-- Contenido principal -->
-        <main>
+        <!-- Contenido Principal -->
+        <div id="main">
             <h2>Nuestros Destinos Más Populares</h2>
-            <img src="img/paris.gif" alt="Juntos en Paris">
-            <p>Viaja con nosotros a los mejores destinos del mundo: París, Roma, Tokio y más.</p>
-                
+            <img src="img/paris.gif" alt="Juntos en París">
+            <h4>Viaja con nosotros a los mejores destinos del mundo: París, Roma, Tokio y más.</h4>
+            <div id="article">
+                <div id="section-1">
+                    Viajar es una experiencia transformadora que nos permite explorar nuevas <span class="keyword">culturas</span>, 
+                    <span class="keyword">paisajes</span> y perspectivas. Desde las antiguas calles de 
+                    <span class="keyword">Roma</span> hasta las vibrantes luces de <span class="keyword">Tokio</span>, 
+                    el mundo está lleno de destinos fascinantes que esperan ser descubiertos. Ya sea que busques <span class="keyword">aventura</span>, 
+                    <span class="keyword">relajación</span> o una mezcla de ambas, siempre hay algo único que aprender en cada destino. 
+                    La magia de viajar reside en los pequeños momentos: la sonrisa de un local, un <span class="keyword">atardecer</span> en la 
+                    playa o una deliciosa comida callejera.
+                </div>
+                <div id="section-2">
+                    Hoy en día, los viajes son más accesibles que nunca. Con <span class="keyword">ofertas exclusivas</span> y 
+                    <span class="keyword">paquetes</span> que se adaptan a todos los presupuestos, viajar se ha convertido en una opción 
+                    viable para muchos. Ya sea que estés planeando una escapada de fin de semana o un recorrido por varios países, 
+                    el mundo ofrece una diversidad impresionante de paisajes. Desde las imponentes <span class="keyword">montañas</span> de los 
+                    Alpes suizos hasta las playas paradisíacas de las <span class="keyword">Maldivas</span>, cada destino tiene una historia 
+                    que contar.
+                </div>
+            </div>
             <h3>Ofertas Especiales</h3>
+            <div class="tabla">
                 <table>
                     <caption>Paquetes de Viaje</caption>
                     <thead>
@@ -50,13 +69,66 @@
                             <td>Vuelo + Hotel</td>
                         </tr>
                         <tr>
-                            <td>Roma</td>
+                            <td>Mexico</td>
                             <td>7 días</td>
                             <td>$1500</td>
                             <td>Vuelo + Hotel + Tour</td>
                         </tr>
                     </tbody>
                 </table>
-            </main>
+            </div>
+
+            <!-- Código Python -->
+            <div class="codigo">
+                <p>
+                    Para imprimir "Hello, World!" en Python, puedes usar el siguiente código: 
+                    <code>print("Hello, World!")</code>.
+                </p>
+            </div>
+
+            <!-- Salida de Computadora -->
+            <div class="salida-computadora">
+                <p>
+                    Al ejecutar el programa, la salida será: 
+                    <samp>Hola, Mundo!</samp>.
+                </p>
+            </div>
+            
+            <!-- Entrada del Usuario -->
+            <div class="entrada-usuario">
+                <p>
+                    Para guardar el archivo, presiona <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+                </p>
+            </div>
+            
+            <!-- Formato Conservado -->
+            <div class="conservar-formato">
+                <pre>
+                                 |    |    |                  
+                                )_)  )_)  )_)             
+                               )___))___))___)\           
+                               )____)____)_____)\\    
+                             _____|____|____|____\\\__   
+                     ---------\                   /---------  
+                         ^^^^^ ^^^^^^^^^^^^^^^^^^^^^       
+                         ^^^^      ^^^^     ^^^    ^^
+                              ^^^^      ^^^
+                </pre>
+            </div>
+
+            <!-- Caracteres Especiales -->
+            <div class="caracteres-especiales">
+                &lt;html&gt; Representa la etiqueta para empezar un archivo HTML.
+            </div>
+            <div>
+                <h5>No te olvides que existe una promoción especial para Mexico - Cancún</h5>
+                <img src="img/cancún-hotel.jpeg" alt="Hotel en Cancún">
+            </div>
+        </div>
+
+        <div id="aside-right"> ASIDE RIGHT</div>
+        <div id="footer">
+            <p>&copy; 2024 Agencia de Viajes - Todos los derechos reservados.</p>
+        </div>
     </body>
 </html>
